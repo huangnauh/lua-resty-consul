@@ -7,7 +7,7 @@ local pairs        = pairs
 local type         = type
 local str_format   = string.format
 
-local _M = {}
+local _M = { _VERSION = '0.01' }
 
 
 function _M.get_kv_blocking(cluster, key, opts)

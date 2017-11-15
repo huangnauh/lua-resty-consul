@@ -11,7 +11,7 @@ local tonumber     = tonumber
 local setmetatable = setmetatable
 local str_sub      = string.sub
 
-local _M = {}
+local _M = { _VERSION = '0.01' }
 
 
 -- get dynamic config from consul
